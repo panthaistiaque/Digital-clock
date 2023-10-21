@@ -17,7 +17,7 @@ function clook() {
 		
 	}
 	let offset = date.getTimezoneOffset(); 
-	document.getElementById("time-box").textContent = hour+":"+minute+":"+second+" "+ampm;
+	document.getElementById("time-box").textContent = hour+" : "+minute+" : "+second+" "+ampm;
 }
 clook();
 
